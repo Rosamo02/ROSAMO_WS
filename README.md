@@ -1,0 +1,1 @@
+# ROSAMO_WS
