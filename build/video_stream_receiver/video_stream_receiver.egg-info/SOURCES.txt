@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/video_stream_receiver
+video_stream_receiver/__init__.py
+video_stream_receiver/video_stream_receiver.py
+video_stream_receiver.egg-info/PKG-INFO
+video_stream_receiver.egg-info/SOURCES.txt
+video_stream_receiver.egg-info/dependency_links.txt
+video_stream_receiver.egg-info/entry_points.txt
+video_stream_receiver.egg-info/requires.txt
+video_stream_receiver.egg-info/top_level.txt
+video_stream_receiver.egg-info/zip-safe

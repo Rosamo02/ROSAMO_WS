@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/map_marker_pkg/map_marker_pkg.egg-info
+writing ../build/map_marker_pkg/map_marker_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/map_marker_pkg/map_marker_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/map_marker_pkg/map_marker_pkg.egg-info/entry_points.txt
+writing requirements to ../build/map_marker_pkg/map_marker_pkg.egg-info/requires.txt
+writing top-level names to ../build/map_marker_pkg/map_marker_pkg.egg-info/top_level.txt
+writing manifest file '../build/map_marker_pkg/map_marker_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/map_marker_pkg/map_marker_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/map_marker_pkg/map_marker_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build
+creating /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build/lib
+creating /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build/lib/map_marker_pkg
+copying map_marker_pkg/__init__.py -> /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build/lib/map_marker_pkg
+copying map_marker_pkg/map_processor_node.py -> /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build/lib/map_marker_pkg
+running install
+running install_lib
+creating /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/python3.12/site-packages/map_marker_pkg
+copying /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build/lib/map_marker_pkg/__init__.py -> /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/python3.12/site-packages/map_marker_pkg
+copying /home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/build/lib/map_marker_pkg/map_processor_node.py -> /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/python3.12/site-packages/map_marker_pkg
+byte-compiling /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/python3.12/site-packages/map_marker_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/python3.12/site-packages/map_marker_pkg/map_processor_node.py to map_processor_node.cpython-312.pyc
+running install_data
+creating /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/share/ament_index
+creating /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/share/ament_index/resource_index
+creating /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/share/ament_index/resource_index/packages
+copying resource/map_marker_pkg -> /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/share/map_marker_pkg
+running install_egg_info
+Copying ../build/map_marker_pkg/map_marker_pkg.egg-info to /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/python3.12/site-packages/map_marker_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing map_processor script to /home/rodrigomoreira/ros2_ws/src/install/map_marker_pkg/lib/map_marker_pkg
+writing list of installed files to '/home/rodrigomoreira/ros2_ws/src/build/map_marker_pkg/install.log'

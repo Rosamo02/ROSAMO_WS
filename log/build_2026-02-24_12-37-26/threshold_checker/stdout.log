@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating threshold_checker.egg-info
+writing threshold_checker.egg-info/PKG-INFO
+writing dependency_links to threshold_checker.egg-info/dependency_links.txt
+writing entry points to threshold_checker.egg-info/entry_points.txt
+writing requirements to threshold_checker.egg-info/requires.txt
+writing top-level names to threshold_checker.egg-info/top_level.txt
+writing manifest file 'threshold_checker.egg-info/SOURCES.txt'
+reading manifest file 'threshold_checker.egg-info/SOURCES.txt'
+writing manifest file 'threshold_checker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages/threshold-checker.egg-link (link to .)
+Installing imu_threshold_node script to /home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/threshold_checker
+
+Installed /home/rodrigomoreira/ros2_ws/src/build/threshold_checker

@@ -1,0 +1,465 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73d206f558e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73d2070cc380>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73d2070cc380>>)
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.166s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rodrigomoreira/ros2_ws/src'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(controller_interpreter) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'controller_interpreter' with type 'ros.ament_python' and name 'controller_interpreter'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(my_py_pkg) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_grid) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'pointcloud_to_grid' with type 'ros.ament_cmake' and name 'pointcloud_to_grid'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(pole_detector) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'pole_detector' with type 'ros.ament_python' and name 'pole_detector'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(pole_marker) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'pole_marker' with type 'ros.ament_python' and name 'pole_marker'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(threshold_checker) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'threshold_checker' with type 'ros.ament_python' and name 'threshold_checker'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(video_stream_receiver) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'video_stream_receiver' with type 'ros.ament_python' and name 'video_stream_receiver'
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/pole_marker' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/pole_detector' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.230s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/rodrigomoreira/ros2_ws/src/install
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rodrigomoreira/ros2_ws/install
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rodrigomoreira/ws_livox/install
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 300 installed packages in /opt/ros/jazzy
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'cmake_target' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'cmake_clean_first' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'cmake_force_configure' from command line to 'False'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'ament_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'controller_interpreter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.284s] DEBUG:colcon.colcon_core.verb:Building package 'controller_interpreter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/controller_interpreter', 'symlink_install': True, 'test_result_base': None}
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.284s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/my_py_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_grid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_grid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/pointcloud_to_grid', 'symlink_install': True, 'test_result_base': None}
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'pole_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/pole_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/pole_detector', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/pole_detector', 'symlink_install': True, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'pole_marker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'pole_marker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/pole_marker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/pole_marker', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/pole_marker', 'symlink_install': True, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'threshold_checker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'threshold_checker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/threshold_checker', 'symlink_install': True, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'video_stream_receiver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'video_stream_receiver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver', 'merge_install': False, 'path': '/home/rodrigomoreira/ros2_ws/src/video_stream_receiver', 'symlink_install': True, 'test_result_base': None}
+[0.287s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.288s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/controller_interpreter' with build type 'ament_python'
+[0.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interpreter', 'ament_prefix_path')
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/hook/ament_prefix_path.ps1'
+[0.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[0.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[0.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[0.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.308s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/pointcloud_to_grid' with build type 'ament_cmake'
+[0.308s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rodrigomoreira/ros2_ws/src/pointcloud_to_grid'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/pole_detector' with build type 'ament_python'
+[0.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('pole_detector', 'ament_prefix_path')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/hook/ament_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/hook/ament_prefix_path.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/hook/ament_prefix_path.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/pole_marker' with build type 'ament_python'
+[0.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('pole_marker', 'ament_prefix_path')
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/hook/ament_prefix_path.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/hook/ament_prefix_path.dsv'
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/hook/ament_prefix_path.sh'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.329s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/threshold_checker' with build type 'ament_python'
+[0.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('threshold_checker', 'ament_prefix_path')
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/hook/ament_prefix_path.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/hook/ament_prefix_path.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/hook/ament_prefix_path.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rodrigomoreira/ros2_ws/src/video_stream_receiver' with build type 'ament_python'
+[0.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_stream_receiver', 'ament_prefix_path')
+[0.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/hook/ament_prefix_path.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/hook/ament_prefix_path.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/hook/ament_prefix_path.sh'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rodrigomoreira/ros2_ws/src/controller_interpreter'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.708s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rodrigomoreira/ros2_ws/src/my_py_pkg'
+[0.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker:/home/rodrigomoreira/ros2_ws/src/install/pole_marker:/home/rodrigomoreira/ros2_ws/src/install/pole_detector:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter:/home/rodrigomoreira/ros2_ws/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/install/threshold_checker:/home/rodrigomoreira/ros2_ws/install/pole_marker:/home/rodrigomoreira/ros2_ws/install/pole_detector:/home/rodrigomoreira/ros2_ws/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/install/controller_interpreter:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rodrigomoreira/ros2_ws/src/pointcloud_to_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid
+[0.883s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rodrigomoreira/ros2_ws/src/pole_detector'
+[0.883s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.883s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rodrigomoreira/ros2_ws/src/pole_marker'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.225s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'threshold_checker' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.226s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'threshold_checker' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.226s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rodrigomoreira/ros2_ws/src/threshold_checker'
+[1.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.397s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rodrigomoreira/ros2_ws/src/video_stream_receiver'
+[1.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/pole_marker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/pole_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/pole_marker/build --no-deps symlink_data
+[1.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/threshold_checker/build --no-deps
+[1.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[1.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/pole_detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/pole_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/pole_detector/build --no-deps symlink_data
+[1.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/build --no-deps symlink_data
+[1.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/build --no-deps symlink_data
+[2.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('threshold_checker', 'pythonpath_develop')
+[2.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/share/threshold_checker/hook/pythonpath_develop.ps1'
+[2.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/threshold_checker/build --no-deps
+[2.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/share/threshold_checker/hook/pythonpath_develop.dsv'
+[2.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/share/threshold_checker/hook/pythonpath_develop.sh'
+[2.425s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker' for CMake module files
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker' for CMake config files
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/bin'
+[2.426s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/pkgconfig/threshold_checker.pc'
+[2.427s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages'
+[2.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('threshold_checker', 'pythonpath')
+[2.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/hook/pythonpath.ps1'
+[2.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/hook/pythonpath.dsv'
+[2.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/hook/pythonpath.sh'
+[2.428s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/bin'
+[2.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(threshold_checker)
+[2.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/package.ps1'
+[2.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/package.dsv'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/package.sh'
+[2.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/package.bash'
+[2.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/threshold_checker/package.zsh'
+[2.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/share/colcon-core/packages/threshold_checker)
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath_develop')
+[2.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/share/my_py_pkg/hook/pythonpath_develop.ps1'
+[2.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/build --no-deps symlink_data
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/share/my_py_pkg/hook/pythonpath_develop.dsv'
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/my_py_pkg/share/my_py_pkg/hook/pythonpath_develop.sh'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg' for CMake module files
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg' for CMake config files
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/lib'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/bin'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/lib/python3.12/site-packages'
+[2.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[2.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/bin'
+[2.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.sh'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.bash'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[2.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[2.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_stream_receiver', 'pythonpath_develop')
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/share/video_stream_receiver/hook/pythonpath_develop.ps1'
+[2.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/build --no-deps symlink_data
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/share/video_stream_receiver/hook/pythonpath_develop.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/share/video_stream_receiver/hook/pythonpath_develop.sh'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver' for CMake module files
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver' for CMake config files
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/bin'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/pkgconfig/video_stream_receiver.pc'
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages'
+[2.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('video_stream_receiver', 'pythonpath')
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/hook/pythonpath.ps1'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/hook/pythonpath.dsv'
+[2.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/hook/pythonpath.sh'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/bin'
+[2.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(video_stream_receiver)
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/package.ps1'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/package.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/package.sh'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/package.bash'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver/package.zsh'
+[2.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/colcon-core/packages/video_stream_receiver)
+[2.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('pole_detector', 'pythonpath_develop')
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/pole_detector/share/pole_detector/hook/pythonpath_develop.ps1'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/build/pole_detector/share/pole_detector/hook/pythonpath_develop.dsv'
+[2.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/pole_detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/pole_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/pole_detector/build --no-deps symlink_data
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/pole_detector/share/pole_detector/hook/pythonpath_develop.sh'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector' for CMake config files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/bin'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib/pkgconfig/pole_detector.pc'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib/python3.12/site-packages'
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('pole_detector', 'pythonpath')
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/hook/pythonpath.ps1'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/hook/pythonpath.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/hook/pythonpath.sh'
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/bin'
+[2.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pole_detector)
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/package.ps1'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/package.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/package.sh'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/package.bash'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector/package.zsh'
+[2.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/colcon-core/packages/pole_detector)
+[2.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('pole_marker', 'pythonpath_develop')
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/pole_marker/share/pole_marker/hook/pythonpath_develop.ps1'
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/build/pole_marker/share/pole_marker/hook/pythonpath_develop.dsv'
+[2.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/pole_marker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/pole_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/pole_marker/build --no-deps symlink_data
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/pole_marker/share/pole_marker/hook/pythonpath_develop.sh'
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker' for CMake module files
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker' for CMake config files
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/bin'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/pkgconfig/pole_marker.pc'
+[2.480s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages'
+[2.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('pole_marker', 'pythonpath')
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/hook/pythonpath.ps1'
+[2.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/hook/pythonpath.dsv'
+[2.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/hook/pythonpath.sh'
+[2.481s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/bin'
+[2.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pole_marker)
+[2.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/package.ps1'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/package.dsv'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/package.sh'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/package.bash'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker/package.zsh'
+[2.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/colcon-core/packages/pole_marker)
+[2.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interpreter', 'pythonpath_develop')
+[2.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/share/controller_interpreter/hook/pythonpath_develop.ps1'
+[2.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/build --no-deps symlink_data
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/share/controller_interpreter/hook/pythonpath_develop.dsv'
+[2.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/share/controller_interpreter/hook/pythonpath_develop.sh'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter' for CMake module files
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter' for CMake config files
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/bin'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib/pkgconfig/controller_interpreter.pc'
+[2.485s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib/python3.12/site-packages'
+[2.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_interpreter', 'pythonpath')
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/hook/pythonpath.ps1'
+[2.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/hook/pythonpath.dsv'
+[2.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/hook/pythonpath.sh'
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/bin'
+[2.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_interpreter)
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/package.ps1'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/package.dsv'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/package.sh'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/package.bash'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter/package.zsh'
+[2.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/colcon-core/packages/controller_interpreter)
+[5.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker:/home/rodrigomoreira/ros2_ws/src/install/pole_marker:/home/rodrigomoreira/ros2_ws/src/install/pole_detector:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter:/home/rodrigomoreira/ros2_ws/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/install/threshold_checker:/home/rodrigomoreira/ros2_ws/install/pole_marker:/home/rodrigomoreira/ros2_ws/install/pole_detector:/home/rodrigomoreira/ros2_ws/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/install/controller_interpreter:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rodrigomoreira/ros2_ws/src/pointcloud_to_grid -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid
+[5.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker:/home/rodrigomoreira/ros2_ws/src/install/pole_marker:/home/rodrigomoreira/ros2_ws/src/install/pole_detector:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter:/home/rodrigomoreira/ros2_ws/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/install/threshold_checker:/home/rodrigomoreira/ros2_ws/install/pole_marker:/home/rodrigomoreira/ros2_ws/install/pole_detector:/home/rodrigomoreira/ros2_ws/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/install/controller_interpreter:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid -- -j16 -l16
+[20.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker:/home/rodrigomoreira/ros2_ws/src/install/pole_marker:/home/rodrigomoreira/ros2_ws/src/install/pole_detector:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter:/home/rodrigomoreira/ros2_ws/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/install/threshold_checker:/home/rodrigomoreira/ros2_ws/install/pole_marker:/home/rodrigomoreira/ros2_ws/install/pole_detector:/home/rodrigomoreira/ros2_ws/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/install/controller_interpreter:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid -- -j16 -l16
+[20.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker:/home/rodrigomoreira/ros2_ws/src/install/pole_marker:/home/rodrigomoreira/ros2_ws/src/install/pole_detector:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter:/home/rodrigomoreira/ros2_ws/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/install/threshold_checker:/home/rodrigomoreira/ros2_ws/install/pole_marker:/home/rodrigomoreira/ros2_ws/install/pole_detector:/home/rodrigomoreira/ros2_ws/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/install/controller_interpreter:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid
+[20.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_grid)
+[20.927s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid' for CMake module files
+[20.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker:/home/rodrigomoreira/ros2_ws/src/install/pole_marker:/home/rodrigomoreira/ros2_ws/src/install/pole_detector:/home/rodrigomoreira/ros2_ws/src/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/src/install/controller_interpreter:/home/rodrigomoreira/ros2_ws/install/video_stream_receiver:/home/rodrigomoreira/ros2_ws/install/threshold_checker:/home/rodrigomoreira/ros2_ws/install/pole_marker:/home/rodrigomoreira/ros2_ws/install/pole_detector:/home/rodrigomoreira/ros2_ws/install/my_py_pkg:/home/rodrigomoreira/ros2_ws/install/controller_interpreter:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid
+[20.928s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid' for CMake config files
+[20.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_grid', 'cmake_prefix_path')
+[20.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.ps1'
+[20.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.dsv'
+[20.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.sh'
+[20.929s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/lib'
+[20.929s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/bin'
+[20.929s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/lib/pkgconfig/pointcloud_to_grid.pc'
+[20.929s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/lib/python3.12/site-packages'
+[20.930s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/bin'
+[20.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.ps1'
+[20.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.dsv'
+[20.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.sh'
+[20.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.bash'
+[20.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.zsh'
+[20.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/colcon-core/packages/pointcloud_to_grid)
+[20.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_grid)
+[20.932s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid' for CMake module files
+[20.932s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid' for CMake config files
+[20.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_grid', 'cmake_prefix_path')
+[20.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.ps1'
+[20.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.dsv'
+[20.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/hook/cmake_prefix_path.sh'
+[20.934s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/lib'
+[20.934s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/bin'
+[20.934s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/lib/pkgconfig/pointcloud_to_grid.pc'
+[20.934s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/lib/python3.12/site-packages'
+[20.934s] Level 1:colcon.colcon_core.environment:checking '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/bin'
+[20.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.ps1'
+[20.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.dsv'
+[20.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.sh'
+[20.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.bash'
+[20.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/pointcloud_to_grid/package.zsh'
+[20.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rodrigomoreira/ros2_ws/src/install/pointcloud_to_grid/share/colcon-core/packages/pointcloud_to_grid)
+[20.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.936s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.943s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.953s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rodrigomoreira/ros2_ws/src/install/local_setup.ps1'
+[20.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rodrigomoreira/ros2_ws/src/install/_local_setup_util_ps1.py'
+[20.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rodrigomoreira/ros2_ws/src/install/setup.ps1'
+[20.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rodrigomoreira/ros2_ws/src/install/local_setup.sh'
+[20.957s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rodrigomoreira/ros2_ws/src/install/_local_setup_util_sh.py'
+[20.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rodrigomoreira/ros2_ws/src/install/setup.sh'
+[20.958s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rodrigomoreira/ros2_ws/src/install/local_setup.bash'
+[20.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rodrigomoreira/ros2_ws/src/install/setup.bash'
+[20.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rodrigomoreira/ros2_ws/src/install/local_setup.zsh'
+[20.960s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rodrigomoreira/ros2_ws/src/install/setup.zsh'

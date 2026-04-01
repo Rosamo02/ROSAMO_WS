@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating controller_interpreter.egg-info
+writing controller_interpreter.egg-info/PKG-INFO
+writing dependency_links to controller_interpreter.egg-info/dependency_links.txt
+writing entry points to controller_interpreter.egg-info/entry_points.txt
+writing requirements to controller_interpreter.egg-info/requires.txt
+writing top-level names to controller_interpreter.egg-info/top_level.txt
+writing manifest file 'controller_interpreter.egg-info/SOURCES.txt'
+reading manifest file 'controller_interpreter.egg-info/SOURCES.txt'
+writing manifest file 'controller_interpreter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib/python3.12/site-packages/controller-interpreter.egg-link (link to .)
+Installing joy2twist script to /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/lib/controller_interpreter
+
+Installed /home/rodrigomoreira/ros2_ws/src/build/controller_interpreter
+running symlink_data
+creating /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/ament_index
+creating /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/ament_index/resource_index
+creating /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/resource/controller_interpreter -> /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/controller_interpreter/package.xml -> /home/rodrigomoreira/ros2_ws/src/install/controller_interpreter/share/controller_interpreter

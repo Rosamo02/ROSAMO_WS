@@ -1,0 +1,2 @@
+[console_scripts]
+pole_marker = pole_marker.pole_marker:main

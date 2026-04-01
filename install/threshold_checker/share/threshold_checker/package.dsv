@@ -1,0 +1,9 @@
+source;share/threshold_checker/hook/pythonpath.ps1
+source;share/threshold_checker/hook/pythonpath.dsv
+source;share/threshold_checker/hook/pythonpath.sh
+source;share/threshold_checker/hook/ament_prefix_path.ps1
+source;share/threshold_checker/hook/ament_prefix_path.dsv
+source;share/threshold_checker/hook/ament_prefix_path.sh
+source;../../build/threshold_checker/share/threshold_checker/hook/pythonpath_develop.ps1
+source;../../build/threshold_checker/share/threshold_checker/hook/pythonpath_develop.dsv
+source;../../build/threshold_checker/share/threshold_checker/hook/pythonpath_develop.sh

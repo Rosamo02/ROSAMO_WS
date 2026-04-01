@@ -1,0 +1,24 @@
+[1.580s] Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/build --no-deps symlink_data
+[1.840s] running develop
+[1.999s] running egg_info
+[1.999s] creating video_stream_receiver.egg-info
+[2.014s] writing video_stream_receiver.egg-info/PKG-INFO
+[2.014s] writing dependency_links to video_stream_receiver.egg-info/dependency_links.txt
+[2.014s] writing entry points to video_stream_receiver.egg-info/entry_points.txt
+[2.014s] writing requirements to video_stream_receiver.egg-info/requires.txt
+[2.015s] writing top-level names to video_stream_receiver.egg-info/top_level.txt
+[2.015s] writing manifest file 'video_stream_receiver.egg-info/SOURCES.txt'
+[2.045s] reading manifest file 'video_stream_receiver.egg-info/SOURCES.txt'
+[2.045s] writing manifest file 'video_stream_receiver.egg-info/SOURCES.txt'
+[2.063s] running build_ext
+[2.063s] Creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages/video-stream-receiver.egg-link (link to .)
+[2.063s] Installing video_stream_receiver script to /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/video_stream_receiver
+[2.064s] 
+[2.064s] Installed /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver
+[2.064s] running symlink_data
+[2.064s] creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index
+[2.064s] creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index/resource_index
+[2.064s] creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index/resource_index/packages
+[2.064s] symbolically linking /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/resource/video_stream_receiver -> /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index/resource_index/packages
+[2.064s] symbolically linking /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/package.xml -> /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver
+[2.130s] Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/build --no-deps symlink_data

@@ -1,0 +1,2 @@
+[console_scripts]
+joy2twist = controller_interpreter.Joy2Twist:main

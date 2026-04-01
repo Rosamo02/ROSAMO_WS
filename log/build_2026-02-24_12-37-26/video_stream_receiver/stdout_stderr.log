@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating video_stream_receiver.egg-info
+writing video_stream_receiver.egg-info/PKG-INFO
+writing dependency_links to video_stream_receiver.egg-info/dependency_links.txt
+writing entry points to video_stream_receiver.egg-info/entry_points.txt
+writing requirements to video_stream_receiver.egg-info/requires.txt
+writing top-level names to video_stream_receiver.egg-info/top_level.txt
+writing manifest file 'video_stream_receiver.egg-info/SOURCES.txt'
+reading manifest file 'video_stream_receiver.egg-info/SOURCES.txt'
+writing manifest file 'video_stream_receiver.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/python3.12/site-packages/video-stream-receiver.egg-link (link to .)
+Installing video_stream_receiver script to /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/lib/video_stream_receiver
+
+Installed /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver
+running symlink_data
+creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index
+creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index/resource_index
+creating /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/resource/video_stream_receiver -> /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/video_stream_receiver/package.xml -> /home/rodrigomoreira/ros2_ws/src/install/video_stream_receiver/share/video_stream_receiver

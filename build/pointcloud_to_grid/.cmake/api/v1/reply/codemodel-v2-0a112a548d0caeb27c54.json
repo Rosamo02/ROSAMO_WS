@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d98fb78c91dc47a7cbc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pointcloud_to_grid",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "grid_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grid_trajectory-fb5dd9cc6c2ceb8c5323.json",
+					"name" : "grid_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_grid_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_grid_node-587f844e0b1851319f23.json",
+					"name" : "pointcloud_to_grid_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_grid_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_grid_uninstall-3163013c908034904df6.json",
+					"name" : "pointcloud_to_grid_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7f24d9a8092228f3b797.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rodrigomoreira/ros2_ws/src/build/pointcloud_to_grid",
+		"source" : "/home/rodrigomoreira/ros2_ws/src/pointcloud_to_grid"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

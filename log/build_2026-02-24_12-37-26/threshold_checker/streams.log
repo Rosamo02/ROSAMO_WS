@@ -1,0 +1,18 @@
+[1.571s] Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/threshold_checker/build --no-deps
+[1.824s] running develop
+[1.987s] running egg_info
+[1.987s] creating threshold_checker.egg-info
+[2.002s] writing threshold_checker.egg-info/PKG-INFO
+[2.003s] writing dependency_links to threshold_checker.egg-info/dependency_links.txt
+[2.003s] writing entry points to threshold_checker.egg-info/entry_points.txt
+[2.003s] writing requirements to threshold_checker.egg-info/requires.txt
+[2.003s] writing top-level names to threshold_checker.egg-info/top_level.txt
+[2.003s] writing manifest file 'threshold_checker.egg-info/SOURCES.txt'
+[2.036s] reading manifest file 'threshold_checker.egg-info/SOURCES.txt'
+[2.036s] writing manifest file 'threshold_checker.egg-info/SOURCES.txt'
+[2.052s] running build_ext
+[2.052s] Creating /home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages/threshold-checker.egg-link (link to .)
+[2.053s] Installing imu_threshold_node script to /home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/threshold_checker
+[2.053s] 
+[2.053s] Installed /home/rodrigomoreira/ros2_ws/src/build/threshold_checker
+[2.093s] Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/threshold_checker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/threshold_checker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/threshold_checker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/threshold_checker/build --no-deps

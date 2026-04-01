@@ -1,0 +1,9 @@
+source;share/pole_marker/hook/pythonpath.ps1
+source;share/pole_marker/hook/pythonpath.dsv
+source;share/pole_marker/hook/pythonpath.sh
+source;share/pole_marker/hook/ament_prefix_path.ps1
+source;share/pole_marker/hook/ament_prefix_path.dsv
+source;share/pole_marker/hook/ament_prefix_path.sh
+source;../../build/pole_marker/share/pole_marker/hook/pythonpath_develop.ps1
+source;../../build/pole_marker/share/pole_marker/hook/pythonpath_develop.dsv
+source;../../build/pole_marker/share/pole_marker/hook/pythonpath_develop.sh

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating pole_detector.egg-info
+writing pole_detector.egg-info/PKG-INFO
+writing dependency_links to pole_detector.egg-info/dependency_links.txt
+writing entry points to pole_detector.egg-info/entry_points.txt
+writing requirements to pole_detector.egg-info/requires.txt
+writing top-level names to pole_detector.egg-info/top_level.txt
+writing manifest file 'pole_detector.egg-info/SOURCES.txt'
+reading manifest file 'pole_detector.egg-info/SOURCES.txt'
+writing manifest file 'pole_detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib/python3.12/site-packages/pole-detector.egg-link (link to .)
+Installing pole_detector script to /home/rodrigomoreira/ros2_ws/src/install/pole_detector/lib/pole_detector
+
+Installed /home/rodrigomoreira/ros2_ws/src/build/pole_detector
+running symlink_data
+creating /home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/ament_index
+creating /home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/ament_index/resource_index
+creating /home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/pole_detector/resource/pole_detector -> /home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/pole_detector/package.xml -> /home/rodrigomoreira/ros2_ws/src/install/pole_detector/share/pole_detector

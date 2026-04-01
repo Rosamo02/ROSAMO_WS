@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+pole_marker/__init__.py
+pole_marker/pole_marker.py
+pole_marker.egg-info/PKG-INFO
+pole_marker.egg-info/SOURCES.txt
+pole_marker.egg-info/dependency_links.txt
+pole_marker.egg-info/entry_points.txt
+pole_marker.egg-info/requires.txt
+pole_marker.egg-info/top_level.txt
+pole_marker.egg-info/zip-safe
+resource/pole_marker

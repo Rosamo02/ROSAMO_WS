@@ -1,0 +1,9 @@
+source;share/video_stream_receiver/hook/pythonpath.ps1
+source;share/video_stream_receiver/hook/pythonpath.dsv
+source;share/video_stream_receiver/hook/pythonpath.sh
+source;share/video_stream_receiver/hook/ament_prefix_path.ps1
+source;share/video_stream_receiver/hook/ament_prefix_path.dsv
+source;share/video_stream_receiver/hook/ament_prefix_path.sh
+source;../../build/video_stream_receiver/share/video_stream_receiver/hook/pythonpath_develop.ps1
+source;../../build/video_stream_receiver/share/video_stream_receiver/hook/pythonpath_develop.dsv
+source;../../build/video_stream_receiver/share/video_stream_receiver/hook/pythonpath_develop.sh

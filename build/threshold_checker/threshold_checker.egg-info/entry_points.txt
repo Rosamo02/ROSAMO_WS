@@ -1,0 +1,2 @@
+[console_scripts]
+imu_threshold_node = threshold_checker.imu_threshold_node:main

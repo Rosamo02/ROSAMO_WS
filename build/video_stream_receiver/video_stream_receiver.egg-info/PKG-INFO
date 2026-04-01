@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: video-stream-receiver
+Version: 0.0.0
+Summary: GStreamer video receiver node
+Maintainer: RodrigoMoreira
+Maintainer-email: moreirarodrigo02@gmail.com
+License: Apache License 2.0

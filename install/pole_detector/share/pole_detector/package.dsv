@@ -1,0 +1,9 @@
+source;share/pole_detector/hook/pythonpath.ps1
+source;share/pole_detector/hook/pythonpath.dsv
+source;share/pole_detector/hook/pythonpath.sh
+source;share/pole_detector/hook/ament_prefix_path.ps1
+source;share/pole_detector/hook/ament_prefix_path.dsv
+source;share/pole_detector/hook/ament_prefix_path.sh
+source;../../build/pole_detector/share/pole_detector/hook/pythonpath_develop.ps1
+source;../../build/pole_detector/share/pole_detector/hook/pythonpath_develop.dsv
+source;../../build/pole_detector/share/pole_detector/hook/pythonpath_develop.sh

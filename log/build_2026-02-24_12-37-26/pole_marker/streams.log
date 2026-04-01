@@ -1,0 +1,24 @@
+[1.571s] Invoking command in '/home/rodrigomoreira/ros2_ws/src/build/pole_marker': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/pole_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/pole_marker/build --no-deps symlink_data
+[1.845s] running develop
+[2.007s] running egg_info
+[2.007s] creating pole_marker.egg-info
+[2.023s] writing pole_marker.egg-info/PKG-INFO
+[2.023s] writing dependency_links to pole_marker.egg-info/dependency_links.txt
+[2.023s] writing entry points to pole_marker.egg-info/entry_points.txt
+[2.023s] writing requirements to pole_marker.egg-info/requires.txt
+[2.023s] writing top-level names to pole_marker.egg-info/top_level.txt
+[2.023s] writing manifest file 'pole_marker.egg-info/SOURCES.txt'
+[2.055s] reading manifest file 'pole_marker.egg-info/SOURCES.txt'
+[2.055s] writing manifest file 'pole_marker.egg-info/SOURCES.txt'
+[2.075s] running build_ext
+[2.075s] Creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages/pole-marker.egg-link (link to .)
+[2.075s] Installing pole_marker script to /home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/pole_marker
+[2.075s] 
+[2.075s] Installed /home/rodrigomoreira/ros2_ws/src/build/pole_marker
+[2.075s] running symlink_data
+[2.075s] creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index
+[2.075s] creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index/resource_index
+[2.075s] creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index/resource_index/packages
+[2.075s] symbolically linking /home/rodrigomoreira/ros2_ws/src/build/pole_marker/resource/pole_marker -> /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index/resource_index/packages
+[2.075s] symbolically linking /home/rodrigomoreira/ros2_ws/src/build/pole_marker/package.xml -> /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker
+[2.156s] Invoked command in '/home/rodrigomoreira/ros2_ws/src/build/pole_marker' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rodrigomoreira/ros2_ws/src/build/pole_marker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rodrigomoreira/ros2_ws/src/build/pole_marker/build --no-deps symlink_data

@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating pole_marker.egg-info
+writing pole_marker.egg-info/PKG-INFO
+writing dependency_links to pole_marker.egg-info/dependency_links.txt
+writing entry points to pole_marker.egg-info/entry_points.txt
+writing requirements to pole_marker.egg-info/requires.txt
+writing top-level names to pole_marker.egg-info/top_level.txt
+writing manifest file 'pole_marker.egg-info/SOURCES.txt'
+reading manifest file 'pole_marker.egg-info/SOURCES.txt'
+writing manifest file 'pole_marker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/python3.12/site-packages/pole-marker.egg-link (link to .)
+Installing pole_marker script to /home/rodrigomoreira/ros2_ws/src/install/pole_marker/lib/pole_marker
+
+Installed /home/rodrigomoreira/ros2_ws/src/build/pole_marker
+running symlink_data
+creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index
+creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index/resource_index
+creating /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/pole_marker/resource/pole_marker -> /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/ament_index/resource_index/packages
+symbolically linking /home/rodrigomoreira/ros2_ws/src/build/pole_marker/package.xml -> /home/rodrigomoreira/ros2_ws/src/install/pole_marker/share/pole_marker

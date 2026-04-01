@@ -1,0 +1,2 @@
+[console_scripts]
+pole_detector = pole_detector.pole_detector:main

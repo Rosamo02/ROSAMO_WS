@@ -1,0 +1,2 @@
+[console_scripts]
+map_processor = map_marker_pkg.map_processor_node:main
